@@ -1,1 +1,13 @@
+//  In our first class of javascript. We can learn that what
+//  is the difference between alert and prompt?
+//  alert is used to give some information to user
+//  prompt is used to get some information to user.
+//  Following are some examples of alert and prompt.
 
+alert("syed abdurrehman nizami");    // It can simply show the words inside the alert.
+alert('syed abdurrehman nizami');    // It gives the same result.
+alert(`syed abdurrehman nizami`);    // It gives the same result.
+
+prompt("How are you?");    // It can show the data in prompt but takes the data from user also.
+prompt('How are you?');    // It gives the same result.
+prompt(`How are you?`);    // It gives the same result.
