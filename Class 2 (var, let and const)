@@ -25,23 +25,23 @@ alert(ac);        //   because in let one variable cannot be declared two times.
 
 const ad = 500;
 const ad = 600;     //   IT can give the syntax error and cannot be run
-alert(ad);          //   because in let one variable cannot be declared two times.
+alert(ad);          //   because in const one variable cannot be declared two times.
 
 // Now see the second difference.
 
 var x = 10;
 x = 20;
-alert(x);   // output is 20
+alert(x);      // output is 20
                // var means variable and the value of variable can be changed easily.
 
 let y = 20;
 y = 30;
-alert(y);   // output is 30
+alert(y);      // output is 30
                // let means variable and the value of variable can be changed easily.
 
 const z = 5;
-z = 8;       // Error
-alert(z);    // output doesn't shown
+z = 8;          // Error
+alert(z);       // output doesn't shown
                 // const means constant and the value of constant can not be changed.
 
 let a=7;              
